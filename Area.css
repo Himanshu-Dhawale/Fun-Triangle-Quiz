@@ -1,0 +1,47 @@
+body{
+    background-color: #90e0ef;
+}
+
+.area-input{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    width: 40%;
+    padding: 0.4rem;
+    border-color: #023e8a;
+    background-color: #90e0ef;
+}
+
+label{
+    display: block;
+    text-align: center;
+    color: #023e8a;
+    font-size: x-large;
+    margin-top: 0.6rem;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    background-color: #03045e;
+    color: #0096c7;
+}
+
+h1{
+    text-align: center;
+    color: #023e8a;
+}
+
+p{
+    text-align: center;
+    color:#023e8a
+}
+
+#show-message{
+    text-align: center;
+    color: #023e8a;
+    margin-top: 0.4rem;
+}
+
