@@ -2,6 +2,45 @@ body{
     background-color: #90e0ef;
 }
 
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color:blue;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
 h1{
     text-align: center;
     color: #023e8a;
@@ -13,6 +52,18 @@ label,input{
     text-align: center;
 }
 
+label{
+    color: #0077b6;
+}
+
+input{
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border-color: #023e8a;
+    background-color: #90e0ef;
+    
+}
 button{
     display: block;
     margin: auto;
@@ -25,4 +76,5 @@ button{
 
 #output{
     text-align: center;
+    color: #0077b6;
 }

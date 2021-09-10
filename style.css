@@ -1,4 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    background-color: #90e0ef;
+}
+
+h1{
+    text-align: center;
+    color: #023e8a;
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color:blue;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+label,input{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+label{
+    color: #0077b6;
+}
+
+input{
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    border-color: #023e8a;
+    background-color: #90e0ef;
+}
 button{
     display: block;
     margin: auto;
+    margin-top: 0.4rem;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    background-color: #023e8a;
+    color: #ade8f4;
+}
+
+#output{
+    text-align: center;
+    color: #0077b6;
 }

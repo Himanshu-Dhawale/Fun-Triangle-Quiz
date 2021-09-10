@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: #90e0ef
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navigation */
+
+.navigation {
+    background-color:blue;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+input{
+    margin: auto;
+}
+
+label{
+    display: block;
+    text-align: center;
+}
