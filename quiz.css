@@ -46,7 +46,7 @@ h1{
     text-align: center;
 }
 
-p{
+/* p{
     text-align: center;
 }
 
@@ -57,4 +57,54 @@ input{
 label{
     display: block;
     text-align: center;
+} */
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    background-color: #03045e;
+    color: #0096c7;
+}
+
+.question-container{
+    width: 85%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 1rem 0;
+}
+
+.question-container p{
+    margin: 1rem 0;
+}
+
+.input-label {
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+  }
+  
+  .input-label p {
+    font-size: larger;
+    margin: 0.5rem;
+  }
+  
+  .input-text {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+  
+
+#output{
+    text-align: center;
+    color: #0077b6;
+    margin-top: 0.6rem;
+    font-size: x-large;
 }
